@@ -1,0 +1,98 @@
+html,body{
+    background: rgb(0, 0, 0);
+    padding:0;
+    margin:0;
+    color: white;
+}
+.preLoader-back{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preLoader-front {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preLoader-front img{
+    width: 0%;
+    top:20%;
+    
+    
+}
+.preLoader-back img{
+    width: 30%;
+    filter: invert();
+}
+
+.preLoader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.first-section{
+    width:100%;
+    height:100%;
+    background:linear-gradient(to top, rgb(3, 3, 36), rgb(0, 0, 0));
+    display: flex;
+}
+
+.first-section .heading{
+    width:50%;
+    /* background: red;   */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section .heading .text{
+    background: rgb(15, 26, 63);
+    width:0%;
+    text-align: center;
+}
+
+.first-section .heading .text h1{
+    font-size: 4rem;
+    font-family: "Poppins", "Sans-serif";
+    letter-spacing: 1rem;
+    padding:0;
+    margin:0;
+}
+
+.first-section .heading .text p{
+    padding:0;
+    margin:0;
+    font-size: 1.3rem;
+    font-family: "Roboto", "Sans-serif";
+    letter-spacing: 2.5rem;
+    font-weight: 300;
+    padding-left: 2rem;
+}
+
+.threeD-Models{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(3, 3, 36), rgb(0, 0, 0));
+}
